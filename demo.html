@@ -1,0 +1,1030 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		.main{
+			
+			display: grid;
+		
+			grid: auto auto / auto auto auto;
+			
+			
+		}
+		.eventlist{
+    
+margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+padding:20px ;
+
+    }
+    .eventlist img {
+        margin-top: 8px;
+        width: 80%;
+        height: 200px;
+        }
+.wed{
+text-align: center;
+margin-top: 90px;
+}
+.name a{
+text-decoration: none;
+padding-left: 100px;
+Color:black;
+font-size: 18px;
+
+}
+.name{
+    padding-bottom: 10px;
+}
+.name:hover a{
+color: hsl(347, 95%, 48%);
+}
+.eventname{
+	padding-bottom: 10px;
+}
+
+
+	</style>
+</head>
+<body>
+	<h2 style="text-align: center;">Welcome To GeeksForGeeks </h2>
+	<div class="main">
+		<div class="eventlist">
+            <div class="eventname"><img src="assets/images/beachwed.jpg"></div>
+            <div class="name"><a href="#">Beach Wedding</a></div>
+        </div>
+
+        <div class="eventlist">
+            <div class="eventname"><img src="assets/images/vintage.jpg"></div>
+            <div class="name"><a href="#">Vintage Weddings</a></div>
+        </div>
+
+        <div class="eventlist">
+            <div class="eventname"><img src="assets/images/desti.jpg"></div>
+            <div class="name"><a href="#">Destination Weddings</a></div>
+        </div>
+
+    
+    
+        <div class="eventlist">
+            <div class="eventname"><img src="assets/images/diy.jpg"></div>
+            <div class="name"><a href="#">DIY Wedding</a></div>
+        </div>
+
+        <div class="eventlist">
+            <div class="eventname"><img src="assets/images/trad.jpg"></div>
+            <div class="name"><a href="#">Traditional Weddings</a></div>
+        </div>
+
+        <div class="eventlist">
+            <div class="eventname"><img src="assets/images/royal.jpg"></div>
+            <div class="name"><a href="#">Royal Weddings</a></div>
+        </div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="stylesheet" href="register.css">
+</head>
+
+
+<body>
+    <form id="form">
+    <div class="top">
+    <img src="assets/images/ketti.jpg" id="image">
+    <h1 id="title" style="font-size:40px;">Kettimelam</h1>
+    </div>
+    
+        <h3>REGISTER HERE</h3>
+        <div class="main">
+            <label for="name" id="label-name">First Name</label>
+            <input type="text" id="name" placeholder="Enter your FirstName" >
+        <br>
+        <label for="name" id="label-name">Last Name</label>
+            <input type="text" id="name" placeholder="Enter your LastName" >
+        <br>
+            <label for="email" id="label-email">Email Id</label>
+            <input type="email" id="email" placeholder="Enter your email" >
+        <br>
+        <label for="text" id="label-number">Mobile Number</label>
+            <input type="text" id="number" placeholder="Enter your MobileNumber" >
+        <br>
+        <label for="password" id="label-password">Create Password</label>
+            <input type="password" id="password" placeholder="Create your Password" />
+        <br>
+        
+            <label for="Address" id="label-Address">Address</label>
+            <input type="text" id="address" placeholder="Enter your address" >
+        </div>
+
+        <div class="click">
+<div class="cancel">
+        <input type="button" value="Home" class="button"></div>
+        <div class="ok">
+        <input type="button" value="submit" class="button"></div>
+</div>
+        </div>
+    </form>
+</body>
+
+</html>
+
+</body>
+</html>
+
+
+
+body {
+    text-align: center;
+    }
+    
+    #image{
+    height: 60px;
+    width:60px;
+    padding-top: 15px;
+    list-style-type: none;
+        
+        
+    }
+    .top{
+    display: flex;
+    padding-left: 530px;
+    }
+    .top h1{
+    font-family: 'Smooch', cursive;
+    }
+    .list1{
+    list-style-type: none;
+    padding-left: 5px;
+    font-size: 55px;
+        
+    
+    }
+    form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 10px 35px;
+    box-shadow: 2px 5px 9px 5px rgba(68, 65, 65, 0.5);
+    margin-top: 5px;
+    }
+
+    .main {
+    text-align: left;
+    margin-bottom: 25px;
+    }
+
+    .main label {
+    display: block;
+    margin-bottom: 10px;
+    }
+
+    .main input {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 60%;
+    }
+
+    .button {
+    background-color: #2bbe7a;
+    border: 1px solid #777;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+    
+}
+    .ok{
+    padding-left: 25px;
+    }
+    .cancel{
+    padding-left: 150px;
+    }
+    
+.click{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+validation
+if(email_id.value.match(emailPattern))
+{
+    document.getElementById("email_error").innerHTML="";
+    email_id.focus();
+    email_id.style.border="solid 2px green"; 
+}
+else{
+    document.getElementById("email_error").innerHTML="Enter Valid email"; 
+    email_id.focus();
+    email_id.style.border="solid 2px red";
+returnfalse; 
+}if
+(mob.value.match(mobPattern))
+{document.getElementById("mobile_error").innerHTML="";
+ mob.focus();
+ mob.style.border="solid 2px green";
+}else{
+    document.getElementById("mobile_error").innerHTML="Enter Valid mobile number";
+     mob.focus();
+     mob.style.border="solid 2px red";
+     returnfalse;
+     }if(pass.value!=""){
+        document.getElementById("pass_error").innerHTML=""; 
+        pass.focus();
+        pass.style.border="solid 2px green";
+    }else
+    {document.getElementById("pass_error").innerHTML="Enter password"; 
+    pass.focus();
+    pass.style.border="solid 2px red";
+    returnfalse; 
+}if(pass.value==cpass.value){
+    document.getElementById("cpass_error").innerHTML="";
+cpass.focus();
+cpass.style.border="solid 2px green";
+ }else{
+    document.getElementById("cpass_error").innerHTML="Password is not matched"; 
+    cpass.focus();
+    cpass.style.border="solid 2px red";
+    returnfalse;
+ }returntrue;
+}
+
+
+
+
+time display
+=>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Digital Clock</title>
+    <script type="text/javascript">
+         function displayTime(){
+    var dateTime = new Date();
+    var hrs = dateTime.getHours();
+    var min = dateTime.getMinutes();
+    var sec = dateTime.getSeconds();
+    var session = document.getElementById('session');
+
+    if(hrs >= 12){
+        session.innerHTML = 'PM';
+    }else{
+        session.innerHTML = 'AM';
+    }
+
+    if(hrs > 12){
+        hrs = hrs - 12;
+    }
+
+    document.getElementById('hours').innerHTML = hrs;
+    document.getElementById('minutes').innerHTML = min;
+    document.getElementById('seconds').innerHTML = sec;
+}
+setInterval(displayTime, 10);
+
+    </script>
+</head>
+<style>
+    *{margin: 0%;
+    padding: 0%;
+    background: black;
+}
+.container{
+    font-family: "Arial", Helvetica, sans-serif;
+    padding: 30px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 150px;
+    white-space: nowrap;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+} 
+</style>
+<body>
+    <div class="container">
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+        <span id="session">AM</span>
+    </div>
+</body>
+</html>
+
+--------------------------------------------------------nav bar------------------------->
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown Menu with Search Box | CodingNepal</title>
+  <link rel="stylesheet" href="demo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://kit.fontawesome.com/9c99ff9a8f.js" ></script>
+
+      <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">    
+</head>
+<style>
+   
+
+</style>
+<body>
+  <div class="wrapper">
+    <nav>
+      <div class="navi">
+      <div class="logo">
+        <li><a href="#"><input type="image" src="assets/images/kettilogo.jpeg" id="image"></a></li>
+        <li class="list1" style="text-decoration:none"><a href="#">Kettimelam</a> </li>
+        <div class="searchbar">  <i class="fa fa-search"  id="searchfont"></i>
+          <input type="search"  placeholder="Search here" value="" id="searchs" >
+       </div> 
+      </div></div>
+
+
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#"></a></div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#" class="desktop-link">Events</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Events</label>
+            <ul>
+              <li><a href="#">Drop Menu 1</a></li>
+              <li><a href="#">Drop Menu 2</a></li>
+              <li><a href="#">Drop Menu 3</a></li>
+              <li><a href="#">Drop Menu 4</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Settings</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Settings</label>
+            <ul>
+              <li><a href="#">Drop Menu 1</a></li>
+              <li><a href="#">Drop Menu 2</a></li>
+              <li><a href="#">Drop Menu 3</a></li>
+              
+              </li></ul>  
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Plans</a></li>
+
+        </ul>
+      </div>
+     </div>
+    </nav>
+  </div>
+  
+</body>
+</html>-->
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="w3-display-container mySlides">
+        <img src="assets/images/beach1.jpg" style="width:100%">
+        <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+          French Alps
+        </div>
+      </div>
+      
+      <div class="w3-display-container mySlides">
+        <img src="assets/images/beach4.jpg" style="width:100%">
+        <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+          Northern Lights
+        </div>
+      </div>
+      
+      <div class="w3-display-container mySlides">
+        <img src="assets/images/beach8.jpg" style="width:100%">
+        <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+          Beautiful Mountains
+        </div>
+      </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    .slideContainer{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .swiper{
+        width:100%;
+        height: fit-content;
+    }
+    .swiper-slide img{
+        width:100%;
+        height:750px
+    }
+</style>
+<body>
+    <div class="slideContainer"></div>
+    <div class="swiper">
+       
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/images/hand41.jpg"></div>
+          <div class="swiper-slide"><img src="assets/images/hand56.jpg"></div>
+          <div class="swiper-slide"><img src="assets/images/hand57.jpg"></div>
+          ...
+        </div>
+        <div class="swiper-pagination"></div>
+      
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>const swiper = new Swiper('.swiper', {
+   autoplay:{
+    delay:3000,
+   },
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable:true,
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    
+  });</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+-->
+
+
+<!--search bar-----------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Once</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<style>
+    body{
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+.container{
+	position: absolute;
+	left: 48%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+input{
+	outline: none;
+	box-sizing: border-box;
+	height: 50px;
+	width: 0px;
+	padding: 0 15px;
+	color: black;
+	border-radius: 50px;
+	font-size: 20px;
+	border: 1px solid #D50000;
+	transition: all .7s ease; 
+}
+
+.btn{
+	position: absolute;
+	right: 0px;
+    top: 0px;
+	width: 50px;
+	height: 50px;
+	background: #D50000;
+	line-height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+}
+.btn i{
+	font-size: 25px;
+	color: white;
+	line-height: 50px;
+    position: relative;
+	transition: all .7s ease;
+}
+.container:hover input{
+	width: 300px;
+}
+
+.btn:hover{
+	background: #cc0000;
+}
+</style>
+<body>
+	<div class="container">
+		<input type="text" placeholder="Search">
+		<div class="btn">
+			<i class="fa fa-search"></i>	
+		</div>
+	</div>
+	
+</body>
+</html>
+
+-->
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .grid-photo-items {
+        height:20px;
+        width:20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap:6px;
+        margin-top: 50px;
+    }
+    .grid-items img{
+        height: 180px;
+        width:180px;
+    }
+    .grid-items{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 30px 0 0 200px;
+
+    }
+    .content-photo-grid {
+        height:500px;
+        width:550px;
+        border: 1px solid black;
+    }
+    
+</style>
+<body>
+    <div class="grid-items">
+    <div class="content-photo-grid">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate unde alias totam cumque reprehenderit voluptatem id. Vitae error culpa quod quia, fugiat recusandae ad suscipit blanditiis possimus beatae porro necessitatibus.</p>
+    </div>
+        <div class="grid-photo-items">
+            <div class="grid-items1">
+                <img src="assets/images/photo1.jpg">
+                <img src="assets/images/photo2.jpg">
+            </div>
+            <div class="grid-items2">
+                <img src="assets/images/photo3.jpg">
+                <img src="assets/images/photo4.jpg">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>-->
+
+<!--
+/* Responsive code start */
+@media screen and (max-width: 1250px) {
+  .navbar nav {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  nav .content .links {
+    margin-left: 50px;
+  }
+
+  .content .links li a {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 900px) {
+  .navbar .menu-icon {
+    display: block;
+  }
+
+  .navbar #show-menu:checked~.menu-icon i::before {
+    content: "\f00d";
+    /*cross icon*/
+  }
+
+  nav .content .links {
+    display: block;
+    position: fixed;
+    background: #14181f;
+    height: 100%;
+    width: 100%;
+    top: 70px;
+    left: -60%;
+    margin-left: 0;
+    max-width: 300px;
+    overflow-y: auto;
+    transition: all 0.3s ease;
+  }
+
+  nav #show-menu:checked~.content .links {
+    left: 0%;
+  }
+
+  .content .links li {
+    margin: 15px 50px;
+  }
+
+  .content .links li a,
+  .content .links li label {
+    font-size: 15px;
+    display: block;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+
+  .content .links li a.desktop-link {
+    display: none;
+  }
+
+  /* dropdown responsive code start */
+  .content .links ul,
+  .content .links ul ul {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    background: none;
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  .content .links #show-features:checked~ul,
+  .content .links #show-services:checked~ul,
+  .content .links #show-items:checked~ul {
+    max-height: 100vh;
+  }
+
+  .content .links ul li {
+    margin: 7px 10px;
+  }
+
+  .content .links ul li a {
+    font-size: 14px;
+    border-radius: 5px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar nav {
+    padding: 0 10px;
+  }
+
+  .content .logo a {
+    font-size: 14px;
+  }
+
+
+
+}
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--registration script                   -->
+
+<!--
+const form = document.querySelector("form");
+eField = form.querySelector(".email"),
+eInput = eField.querySelector("input"),
+pField = form.querySelector(".password"),
+pInput = pField.querySelector("input"),
+fField = form.querySelector(".fname"),
+fInput = fField.querySelector("input"),
+lField = form.querySelector(".lname"),
+lInput = lField.querySelector("input");
+
+form.onclick = (e)=>{
+  e.preventDefault(); //preventing from form submitting
+  //if email and password is blank then add shake class in it else call specified function
+  (eInput.value == "") ? eField.classList.add("shake", "error") : checkEmail();
+  (pInput.value == "") ? pField.classList.add("shake", "error") : checkPass();
+  (fInput.value == "") ? fField.classList.add("shake", "error") : checkFname();
+  (lInput.value == "") ? lField.classList.add("shake", "error") : checkLname();
+
+  setTimeout(()=>{ //remove shake class after 500ms
+    eField.classList.remove("shake");
+    pField.classList.remove("shake");
+    fField.classList.remove("shake");
+    lField.classList.remove("shake");
+
+  }, 500);
+  eInput.onkeyup = ()=>{checkEmail();} //calling checkEmail function on email input keyup
+  pInput.onkeyup = ()=>{checkPass();} //calling checkPassword function on pass input keyup
+  fInput.onkeyup = ()=>{checkFname();}
+  lInput.onkeyup = ()=>{checkLname();}
+
+  function checkEmail(){ //checkEmail function
+    let pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/; //pattern for validate email
+    if(!eInput.value.match(pattern)){ //if pattern not matched then add error and remove valid class
+      eField.classList.add("error");
+      eField.classList.remove("valid");
+      let errorTxt = eField.querySelector(".error-txt");
+      //if email value is not empty then show please enter valid email else show Email can't be blank
+      (eInput.value != "") ? errorTxt.innerText = "Enter a valid email address" : errorTxt.innerText = "Email can't be blank";
+    }else{ //if pattern matched then remove error and add valid class
+      eField.classList.remove("error");
+      eField.classList.add("valid");
+    }
+  }
+
+  function checkPass() {
+   
+    let regularExpression  = /^[7-9][0-9]{0,8}$/;
+  
+if(pInput.value.match(regularExpression)){
+  pField.classList.add("error");
+      pField.classList.remove("valid");    
+        let errorTxt = pField.querySelector(".error-txt");
+
+      (pInput.value != "") ? errorTxt.innerText = "Enter a valid Password" : errorTxt.innerText = "Password can't be blank";
+
+}else{ //if pattern matched then remove error and add valid class
+  pField.classList.remove("error");
+  pField.classList.add("valid");
+}
+        
+}
+
+function checkFname(){
+  let nameExpression=/^[a-zA-Z]+ [a-zA-Z]+$/;
+  if(fInput.value.match(nameExpression)){
+    fField.classList.remove("valid");    
+    let errorTxt = fField.querySelector(".error-txt");
+
+  (fInput.value != "") ? errorTxt.innerText = "Enter a valid Password" : errorTxt.innerText = "Password can't be blank";
+
+}else{ //if pattern matched then remove error and add valid class
+fField.classList.remove("error");
+fField.classList.add("valid");
+}
+    
+}
+
+function checkLname(){
+  let nameExpression=/^[a-zA-Z]+ [a-zA-Z]+$/;
+  if(lInput.value.match(nameExpression)){
+    lField.classList.remove("valid");    
+    let errorTxt = lField.querySelector(".error-txt");
+
+  (lInput.value != "") ? errorTxt.innerText = "Enter a valid Password" : errorTxt.innerText = "Password can't be blank";
+
+}else{ //if pattern matched then remove error and add valid class
+lField.classList.remove("error");
+lField.classList.add("valid");
+}
+    
+}
+  //if eField and pField doesn't contains error class that mean user filled details properly
+  if(!eField.classList.contains("error") && !pField.classList.contains("error")){
+    window.location.href = form.getAttribute("action"); //redirecting user to the specified url which is inside action attribute of form tag
+  }
+
+
+}*/-->
+
+
+<!--
+<!DOCTYPE html>
+ Created By CodingNepal - www.codingnepalweb.com 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown Menu with Search Box | CodingNepal</title>
+  <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="navbar">
+    <nav>
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#">CodingNepal</a></div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li>
+            <a href="#" class="desktop-link">Weddings</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Weddings</label>
+            <ul>
+              <li><a href="#">Traditional</a></li>
+              <li><a href="#">Royal</a></li>
+              <li><a href="#">Vintage</a></li>
+              <li><a href="#">Beach</a></li>
+              <li><a href="#">Desination</a></li>
+
+            </ul>
+          </li>
+          
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+      <!-<form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>->
+    </nav>
+  </div>
+
+  
+
+</body>
+</html>-->
+
+
+
+
+
+
+<!--Dialog tag-->
+
+<!--dropdown-
+<html>
+  <body>
+<select id="dropdown">
+  <option value="option1">Option 1</option>
+  <option value="option2">Option 2</option>
+  <option value="option3">Option 3</option>
+</select>
+
+<div id="contentContainer"></div>
+</body>
+<script src="demo.js">
+
+</script>
+</html>-->
+<html>
+  <body>
+<form>
+  <div class="form-group">
+    <label for="quantity">Quantity:</label>
+    <input type="text" class="form-control" id="quantity" value="1">
+    <div class="input-group-append">
+      <button class="btn btn-danger" type="button" id="decrease">-</button>
+      <button class="btn btn-success" type="button" id="increase">+</button>
+    </div>
+  </div>
+</form></body>
+<script src="demo.js"></script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
